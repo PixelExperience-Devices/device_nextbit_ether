@@ -14,6 +14,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 # Inherit some common AOSP stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+#Pixel-Style
+$(call inherit-product, vendor/pixelstyle/config.mk)
+
 #GApps
 TARGET_GAPPS_ARCH := arm64
 
